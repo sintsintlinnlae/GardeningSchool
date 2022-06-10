@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Feedback</title>
+	</head>
+	<body>
+		<center>
+			<form>
+				<br><br><br>
+				<table style="background-color: rgb(144, 238, 144); width: 770; border: 1px solid black;">
+				<tr>
+					<td style="color: green; font-size: 47; border: 1px solid black; padding: 6px; text-align: center;">Feedback Form</td>
+				</tr>
+				</table>
+				<table style="background-color: rgb(144, 238, 144); width: 770; padding-left: 50px; padding-top: 30px;">
+					<tr>
+						<td width="200">
+						<label for="to">To:</label><br>
+						</td>
+						<td>
+						<input list="bl">
+							<datalist id="bl">
+							<option value="Principal">
+							<option value="Manager">
+							<option value="Trainer">	
+							</datalist>
+						</td>
+						<tr>
+							<td><label for="name">Name:</label></td>
+							<td><input type="text" name="name" id="name" placeholder="Enter Full Name" size="72"></td>
+						</tr>
+						<tr>
+							<td><label>Email:</label></td>
+							<td><input type="email" name="email" placeholder="sample@example.com" size="72"></td>
+						</tr>
+						<tr>
+							<td><label for="feedback">Feedback:</label></td>
+							<td><textarea rows="3" cols="61" placeholder="Please type your comment."></textarea></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td style="padding-left: 100px;"><input type="submit" name="submit" value="Submit"></td>
+						</tr>
+				</table>
+			</form>
+			</center>
+	</body>
+</html>
